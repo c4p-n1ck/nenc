@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NENC - Nick's Experimental Nostr Client</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	  <h1>Nick's Experimental Nostr Client [ NENC ]</h1>
+	  <script src="index.js"></script>
+	  <button id="auth" onclick="noseauth()">WHOAMI</button>
+	  <textarea>["REQ", "TEST", {"kinds": [0], "limit": 4}]</textarea>
+	  <button onclick="rsend()">Send Payload</button>
+	  <br>
+	  <pre class="log">["REQ", "TEST", {"kinds": [0], "limit": 4}]
+</pre>
+	  <!--<script src="nostr.js"></script>-->
+  </body>
+</html>

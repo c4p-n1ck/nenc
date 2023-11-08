@@ -1,0 +1,27 @@
+body {
+	background: #000;
+	color: #0f0;
+	font-family: monospace;
+}
+
+h1 {
+	text-align: center;
+}
+
+button {
+	background: #000;
+	border-style: solid;
+	color: #0f0;
+	border-color: #fff;
+}
+
+textarea {
+	background: #000;
+	color: #0f0;
+	height: 256px;
+	width: 512px;
+}
+
+#auth {
+	float: right;
+}
