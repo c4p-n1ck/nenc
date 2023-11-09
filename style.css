@@ -8,6 +8,14 @@ h1 {
 	text-align: center;
 }
 
+input {
+	background: #000;
+	color: #0f0;
+	border: none;
+	border-style: solid;
+	border-color: #fff;
+}
+
 button {
 	background: #000;
 	border-style: solid;
