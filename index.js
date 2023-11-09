@@ -18,7 +18,6 @@ nosrecon = () => {
 	let input_relay_url = document.querySelector('.relay').value;
 	relay.close();
 	relay = new Relay(input_relay_url);
-	// TODO: fix new [relay.onmessage, relay.onopen] handler using classes to connect to a relay.
 }
 
 rsend = () => {
