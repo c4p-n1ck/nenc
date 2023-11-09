@@ -25,3 +25,7 @@ rsend = () => {
 	let payload = document.querySelector('textarea').value;
 	relay.send(payload);
 }
+
+clear_log = () => {
+	document.querySelector('.log').innerText = '';
+}
